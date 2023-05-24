@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+}
+a, u {
+    text-decoration: none;
+    color: rgb(255 255 255/1);
 }
 html {
     font-size: 16px;
@@ -185,6 +190,7 @@ nav{
         width: 80%;
         margin: 0 4rem;
     }
+    
   }
   .flex{
     display: flex;
@@ -205,5 +211,12 @@ nav{
         align-items: center;
         width: 35%;
     }
+    .work:hover,.degree:hover {
+        transform: translate(-1,-0.5);
+    }
 
 }  
+.link-icon{
+    color: #5c729b;
+    font-size: 1rem;
+}
